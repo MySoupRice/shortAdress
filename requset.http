@@ -1,0 +1,30 @@
+Get http://localhost:3000/api/short-links/67d1851d783da0f36d4bae9f
+
+###
+
+Get http://localhost:3000/api/short-links/
+
+###
+Get http://localhost:3000/api/qrcodes/
+
+###
+PATCH http://localhost:3000/api/short-links/67d1851d783da0f36d4bae9f
+Content-Type: application/json
+
+{
+  "title": "updated title"
+}
+
+####
+
+POST http://localhost:3000/api/short-links/
+Content-Type: application/json
+
+{
+  "title": "codeit",
+  "url": "https://codeit.kr"
+}
+
+###
+
+DELETE  http://localhost:3000/api/short-links/67d183f9783da0f36d4bae9d
